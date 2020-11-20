@@ -1,0 +1,422 @@
+
+/* makes sure the header does have any top margin */
+body {
+    background-image: url(../resources/Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* styling though fonts */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    color: #E6DECA;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #E6DECA;
+}
+
+h3, h4 {
+    font-weight: 800;
+    font-size: 25px;
+    color: #574A3F;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 19px;
+    color: #574A3F;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #574A3F;
+    margin-right: 20px;
+}
+
+p .bold {
+    font-weight: 700;
+    font-size: 15px;
+    color: #574A3F;
+}
+
+.link {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* styling header */
+
+header {
+    /* Aligning white-banner vertically */
+    display: flex;
+    align-items: center;
+
+    /* dementions of header */
+    width: 100%;
+    height: 200px;
+
+    /* stetting background header */
+    background-image: url(../resources/Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white-banner {
+    /* centering Logo in banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* white banner dimentions */
+    height: 90px;
+    width: 100%;
+
+    /* background & opacity */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#logo {
+    height: 150px;
+    width: auto;
+}
+
+/* Login div */
+.main-section {
+    /* space between banner and main section */
+    margin-top: 50px;
+
+    /* centering the login-section */
+    display: flex;
+    justify-content: center;
+}
+
+.login-section {
+    /* Ordering the two div children
+    under eachother */
+    display: flex;
+    flex-flow: column;
+
+    /* dimentions login-section */
+    width: 60%;
+    height: 400px;
+
+    /* style login-section */
+    border: 3px solid #574A3F;
+    background-color: #E6DECA;
+    border-radius: 20px;
+}
+
+/* changing h1 text color for login section */
+.welcome-creators {
+    color: #574A3F;
+}
+
+.complete-info-section {
+    /* Ordering the two div children
+    under eachother */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    /* dimentions user-info section */
+    height: 100%;
+    width: 100%;
+    background-color: #E6DECA;
+
+    /* style */
+    border-radius: 0px 0px 20px 20px;
+}
+
+/* Each text section */
+.text-field-section {
+    /* centering children */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* dimentions */
+    height: 100%;
+    width: 100%;
+}
+
+#login {
+    justify-content: center;
+    background-color: rgba(136, 125, 115);
+
+    /* getting rid of underlineing */
+    text-decoration: none;
+}
+
+.text-field {
+    /* centering children */
+    display: flex;
+    align-items: center;
+
+    min-height: 45px;
+    min-width: 70%;
+
+    background-color: #574A3F;
+
+    border-radius: 50px;
+}
+
+.user-img {
+    /* centering children */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 45px;
+    width: 10%;
+
+    border-radius: 50px 0px 0px 50px;
+    
+    background-color: rgba(136, 125, 115);
+}
+
+.user-account-info {
+    /* centering children */
+    display: flex;
+    align-items: center;
+
+    padding-left: 25px;
+
+    height: 45px;
+    width: 100%;
+
+}
+
+
+h5 {
+    color: #E6DECA;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#login h5 {
+    text-decoration: none;
+    color: white;
+}
+
+/* ka overview ---------------------------------- */
+
+#ka-section {
+    justify-content: center;
+    align-items: center;   
+    flex-flow: column;
+
+    margin-bottom: 150px;
+}
+
+.instructions {
+    /* centering children */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+
+    width: 80%;
+    height: 150px;
+
+    border-radius: 20px 20px 0px 0px;
+
+    background-color: #574A3F;
+}
+.instructions h1 {
+    color: #E6DECA;
+}
+
+.ka-list-container {
+    /* centering children */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: calc(80% - 22px);
+    
+    border: 1px solid #574A3F;
+
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px 10px 70px 10px;
+}
+
+#ka-holder {
+    /* centering children */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 0px;
+
+    height: 100px;
+    width: 80%;
+
+    background-color: #E6DECA;
+
+    border-radius: 20px 20px 20px 20px;
+
+    text-decoration: none;
+}
+
+#ka-holder h4 {
+    text-align: center;
+    text-decoration: none;
+}
+
+/* KA page ---------------------------------- */
+
+/* flex itemt with it's content centered */
+.flex-item-centered {
+    /* centering children */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The page title
+
+same as .instructions */
+
+.ka-title {
+    /* centering children */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+    /* dementions */
+    width: 80%;
+    height: 150px;
+
+    /* styling */
+    border-radius: 20px 20px 0px 0px;
+    background-color: #574A3F;
+}
+.ka-title h1 {
+    color: #E6DECA;
+}
+
+.sub-topic-section {
+    width: 80%;
+    background-color: #E6DECA;
+
+    flex-flow: column;
+}
+
+/* sub-topic definition title */
+.st-section-title {
+    border-bottom: 1px solid #574A3F;
+}
+
+.middle {
+    border-top: 1px solid #574A3F;
+}
+
+/* every definition */
+.definitions {
+    /* centering children */
+    display: flex;
+    align-items: center;
+
+
+    min-height: 100px;
+    width: 100%; 
+}
+
+/* trash icon */
+.trash {
+    /* centering children */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 45px;
+    width: 10%;
+}
+
+/* word that is defined */
+.word {
+    display: flex;
+    justify-content: right;
+
+    width: 20%;
+}
+
+.definition {
+    display: flex;
+    justify-content: right;
+    width: 70%;
+}
+
+
+/* imporant events section */
+
+/* One event */
+.timeslot {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+
+    min-height: 250px;
+}
+
+.events {
+    display: flex;
+    flex-flow: column;
+}
+
+/* information section event */
+.event-info-section {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    border-top: 1px solid #574A3F;
+
+    width: 100%;
+}
+
+.individual-event-section {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+    flex-flow: column;
+
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.event-title-time-section {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.seperation {
+    width: 5%;
+}
+
+.event-title {
+    width: 100%;
+    height: 50px;
+}
